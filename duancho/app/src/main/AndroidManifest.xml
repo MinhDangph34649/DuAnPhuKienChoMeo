@@ -6,14 +6,39 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/dog"
+        android:label="DOGSHOP"
+        android:roundIcon="@drawable/dogshop"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Duancho"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
+            android:name=".sua_Thong_tin_nguoi_dung"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".man_hinh_dang_nhap"
+            android:exported="false" />
+        <activity
+            android:name=".man_hinh_dang_ky"
+            android:exported="false" />
+
+        <activity
+            android:name=".ActivityManHinhCho.Man_Hinh_Cho_3"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityManHinhCho.Man_Hinh_Cho_2"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityManHinhCho.Man_Hinh_Cho_1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".man_hinh_cho"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
