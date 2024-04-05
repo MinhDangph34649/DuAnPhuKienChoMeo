@@ -20,7 +20,9 @@ import java.util.ArrayList;
 public class adapter_trangchu extends RecyclerView.Adapter<adapter_trangchu.ViewHo> {
     private ArrayList<SanPham> list;
     private Context context;
+    private String name ;
     SanPhamDao dao;
+
 
 
     public adapter_trangchu(ArrayList<SanPham> list, Context context) {
