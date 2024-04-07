@@ -55,7 +55,7 @@ private  String menu;
     //    Menu mMenu;
     NavigationView navigationView;
 
-
+private String out;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
