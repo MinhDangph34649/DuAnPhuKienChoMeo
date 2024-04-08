@@ -24,6 +24,7 @@ import java.util.ArrayList;
 
 
 public class frg_lich_su_don_hang extends Fragment {
+    private String www;
 
 
 
