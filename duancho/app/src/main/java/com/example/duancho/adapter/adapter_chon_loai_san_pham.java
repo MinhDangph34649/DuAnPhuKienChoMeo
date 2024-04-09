@@ -19,7 +19,7 @@ public class adapter_chon_loai_san_pham extends RecyclerView.Adapter<adapter_cho
     private ArrayList<LoaiSanPham> list;
     private LoaiSanPhamDao dao;
     private Context context;
-    private String lll;
+
 
     public adapter_chon_loai_san_pham(ArrayList<LoaiSanPham> list, Context context) {
         this.list = list;
