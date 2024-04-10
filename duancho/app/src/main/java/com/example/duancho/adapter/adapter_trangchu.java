@@ -22,6 +22,7 @@ public class adapter_trangchu extends RecyclerView.Adapter<adapter_trangchu.View
     private Context context;
     private String chill;
 
+
     SanPhamDao dao;
 
 
