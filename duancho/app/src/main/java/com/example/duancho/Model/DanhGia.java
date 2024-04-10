@@ -10,10 +10,7 @@ public class DanhGia {
     private String danhGia;
     private String nhanXet;
     private String ngayDanhGia;
-    private String name;
-    private String number;
-    private String like ;
-    private String siu ;
+
 
 
 

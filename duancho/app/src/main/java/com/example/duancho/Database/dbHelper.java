@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class dbHelper extends SQLiteOpenHelper {
     static String DB_NAME = "PetShop";
-    static int DB_VERSION = 28;
+    static int DB_VERSION = 30;
 
     public dbHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
