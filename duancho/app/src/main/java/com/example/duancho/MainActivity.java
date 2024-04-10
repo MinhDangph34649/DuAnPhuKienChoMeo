@@ -50,7 +50,6 @@ import com.example.duancho.fragment.frg_lich_su_don_hang;
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
 private  String menu;
-private String mmm;
 
 
     //    Menu mMenu;

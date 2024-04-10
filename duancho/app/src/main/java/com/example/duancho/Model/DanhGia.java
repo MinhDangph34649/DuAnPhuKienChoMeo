@@ -10,6 +10,7 @@ public class DanhGia {
     private String danhGia;
     private String nhanXet;
     private String ngayDanhGia;
+    private String hhhh;
 
 
 
